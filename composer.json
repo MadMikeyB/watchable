@@ -2,8 +2,7 @@
     "name": "jamesmills/watchable",
     "description": "A package to allow your Models to become watchable by a User",
     "homepage": "https://github.com/jamesmills/watchable",
-    "keywords":
-    [
+    "keywords": [
         "watch",
         "watchable",
         "laravel",
@@ -14,15 +13,13 @@
         "like",
         "likeable"
     ],
-    "authors": [
-        {
-            "name": "James Mills",
-            "email": "james@jamesmills.co.uk"
-        }
-    ],
+    "authors": [{
+        "name": "James Mills",
+        "email": "james@jamesmills.co.uk"
+    }],
     "require": {
-        "php" : "^7.0",
-        "illuminate/support": "~5.3.0 || ~5.4.0 || ~5.5.0 || 5.6.* || 5.7.*  ||  5.8.* || ^6 || ^7 || ^8"
+        "php": "^7.0 || ^8.0",
+        "illuminate/support": "~5.3.0 || ~5.4.0 || ~5.5.0 || 5.6.* || 5.7.*  ||  5.8.* || ^6 || ^7 || ^8 || ^9"
     },
     "autoload": {
         "psr-4": {
